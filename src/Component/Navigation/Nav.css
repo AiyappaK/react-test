@@ -3,7 +3,6 @@
     background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
-    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +62,7 @@
        height: 400px;
        position: absolute;
        top: 80px;
-       left: 0;
+       left: -1000px;
        opacity: 1;
        transition: all 0.6s ease;
        box-sizing: border-box;
@@ -111,4 +110,8 @@ right: 0;
 transform: translate(-100%, 190%);
 font-size: 1.0rem;
 cursor: pointer;}
+}
+
+.test{
+width: 100vw;
 }
