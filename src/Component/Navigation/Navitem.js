@@ -1,22 +1,22 @@
 export const Navitems = [
     {
       title: 'Home',
-      url: '#',
+      url: '/',
       cname:'navitem'
     },
     {
         title: 'About',
-        url: '#',
+        url: '/About',
         cname:'navitem'
     },
     {
         title: 'Contact',
-        url: '#',
+        url: '/Contact',
         cname:'navitem'
     },
     {
         title: 'Products',
-        url: '#',
+        url: '/Product',
         cname:'navitem'
     }
 ]
